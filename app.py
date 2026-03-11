@@ -88,7 +88,7 @@ def parse_text(text):
 # UI
 # --------------------
 
-st.title("💰 AI智能记账")
+st.title("💰 小雷帮你记")
 
 menu = st.sidebar.selectbox(
     "菜单",
@@ -339,3 +339,4 @@ if menu == "月度报告":
         else:
 
             st.write("消费水平:较低")
+
